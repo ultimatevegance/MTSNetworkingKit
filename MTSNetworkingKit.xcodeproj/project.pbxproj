@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E1EE1A219AACFD0087578A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1EE19219AACFD0087578A /* AppDelegate.swift */; };
+		16E1EE1C219AACFD0087578A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1EE1B219AACFD0087578A /* ViewController.swift */; };
+		16E1EE1F219AACFD0087578A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E1EE1D219AACFD0087578A /* Main.storyboard */; };
+		16E1EE21219AACFF0087578A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E1EE20219AACFF0087578A /* Assets.xcassets */; };
+		16E1EE24219AACFF0087578A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16E1EE22219AACFF0087578A /* LaunchScreen.storyboard */; };
+		16E1EE2F219AACFF0087578A /* MTSNetworkingKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1EE2E219AACFF0087578A /* MTSNetworkingKitTests.swift */; };
+		16E1EE3A219AACFF0087578A /* MTSNetworkingKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1EE39219AACFF0087578A /* MTSNetworkingKitUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16E1EE2B219AACFF0087578A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E1EE0E219AACFD0087578A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E1EE15219AACFD0087578A;
+			remoteInfo = MTSNetworkingKit;
+		};
+		16E1EE36219AACFF0087578A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E1EE0E219AACFD0087578A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16E1EE15219AACFD0087578A;
+			remoteInfo = MTSNetworkingKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16E1EE16219AACFD0087578A /* MTSNetworkingKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTSNetworkingKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E1EE19219AACFD0087578A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16E1EE1B219AACFD0087578A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16E1EE1E219AACFD0087578A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16E1EE20219AACFF0087578A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16E1EE23219AACFF0087578A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16E1EE25219AACFF0087578A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16E1EE2A219AACFF0087578A /* MTSNetworkingKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTSNetworkingKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E1EE2E219AACFF0087578A /* MTSNetworkingKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTSNetworkingKitTests.swift; sourceTree = "<group>"; };
+		16E1EE30219AACFF0087578A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16E1EE35219AACFF0087578A /* MTSNetworkingKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTSNetworkingKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E1EE39219AACFF0087578A /* MTSNetworkingKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTSNetworkingKitUITests.swift; sourceTree = "<group>"; };
+		16E1EE3B219AACFF0087578A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16E1EE13219AACFD0087578A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1EE27219AACFF0087578A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1EE32219AACFF0087578A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16E1EE0D219AACFD0087578A = {
+			isa = PBXGroup;
+			children = (
+				16E1EE18219AACFD0087578A /* MTSNetworkingKit */,
+				16E1EE2D219AACFF0087578A /* MTSNetworkingKitTests */,
+				16E1EE38219AACFF0087578A /* MTSNetworkingKitUITests */,
+				16E1EE17219AACFD0087578A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16E1EE17219AACFD0087578A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16E1EE16219AACFD0087578A /* MTSNetworkingKit.app */,
+				16E1EE2A219AACFF0087578A /* MTSNetworkingKitTests.xctest */,
+				16E1EE35219AACFF0087578A /* MTSNetworkingKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16E1EE18219AACFD0087578A /* MTSNetworkingKit */ = {
+			isa = PBXGroup;
+			children = (
+				16E1EE19219AACFD0087578A /* AppDelegate.swift */,
+				16E1EE1B219AACFD0087578A /* ViewController.swift */,
+				16E1EE1D219AACFD0087578A /* Main.storyboard */,
+				16E1EE20219AACFF0087578A /* Assets.xcassets */,
+				16E1EE22219AACFF0087578A /* LaunchScreen.storyboard */,
+				16E1EE25219AACFF0087578A /* Info.plist */,
+			);
+			path = MTSNetworkingKit;
+			sourceTree = "<group>";
+		};
+		16E1EE2D219AACFF0087578A /* MTSNetworkingKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				16E1EE2E219AACFF0087578A /* MTSNetworkingKitTests.swift */,
+				16E1EE30219AACFF0087578A /* Info.plist */,
+			);
+			path = MTSNetworkingKitTests;
+			sourceTree = "<group>";
+		};
+		16E1EE38219AACFF0087578A /* MTSNetworkingKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16E1EE39219AACFF0087578A /* MTSNetworkingKitUITests.swift */,
+				16E1EE3B219AACFF0087578A /* Info.plist */,
+			);
+			path = MTSNetworkingKitUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16E1EE15219AACFD0087578A /* MTSNetworkingKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E1EE3E219AACFF0087578A /* Build configuration list for PBXNativeTarget "MTSNetworkingKit" */;
+			buildPhases = (
+				16E1EE12219AACFD0087578A /* Sources */,
+				16E1EE13219AACFD0087578A /* Frameworks */,
+				16E1EE14219AACFD0087578A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTSNetworkingKit;
+			productName = MTSNetworkingKit;
+			productReference = 16E1EE16219AACFD0087578A /* MTSNetworkingKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16E1EE29219AACFF0087578A /* MTSNetworkingKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E1EE41219AACFF0087578A /* Build configuration list for PBXNativeTarget "MTSNetworkingKitTests" */;
+			buildPhases = (
+				16E1EE26219AACFF0087578A /* Sources */,
+				16E1EE27219AACFF0087578A /* Frameworks */,
+				16E1EE28219AACFF0087578A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16E1EE2C219AACFF0087578A /* PBXTargetDependency */,
+			);
+			name = MTSNetworkingKitTests;
+			productName = MTSNetworkingKitTests;
+			productReference = 16E1EE2A219AACFF0087578A /* MTSNetworkingKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16E1EE34219AACFF0087578A /* MTSNetworkingKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16E1EE44219AACFF0087578A /* Build configuration list for PBXNativeTarget "MTSNetworkingKitUITests" */;
+			buildPhases = (
+				16E1EE31219AACFF0087578A /* Sources */,
+				16E1EE32219AACFF0087578A /* Frameworks */,
+				16E1EE33219AACFF0087578A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16E1EE37219AACFF0087578A /* PBXTargetDependency */,
+			);
+			name = MTSNetworkingKitUITests;
+			productName = MTSNetworkingKitUITests;
+			productReference = 16E1EE35219AACFF0087578A /* MTSNetworkingKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16E1EE0E219AACFD0087578A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = MonsterTech;
+				TargetAttributes = {
+					16E1EE15219AACFD0087578A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					16E1EE29219AACFF0087578A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 16E1EE15219AACFD0087578A;
+					};
+					16E1EE34219AACFF0087578A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 16E1EE15219AACFD0087578A;
+					};
+				};
+			};
+			buildConfigurationList = 16E1EE11219AACFD0087578A /* Build configuration list for PBXProject "MTSNetworkingKit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16E1EE0D219AACFD0087578A;
+			productRefGroup = 16E1EE17219AACFD0087578A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16E1EE15219AACFD0087578A /* MTSNetworkingKit */,
+				16E1EE29219AACFF0087578A /* MTSNetworkingKitTests */,
+				16E1EE34219AACFF0087578A /* MTSNetworkingKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16E1EE14219AACFD0087578A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E1EE24219AACFF0087578A /* LaunchScreen.storyboard in Resources */,
+				16E1EE21219AACFF0087578A /* Assets.xcassets in Resources */,
+				16E1EE1F219AACFD0087578A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1EE28219AACFF0087578A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1EE33219AACFF0087578A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16E1EE12219AACFD0087578A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E1EE1C219AACFD0087578A /* ViewController.swift in Sources */,
+				16E1EE1A219AACFD0087578A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1EE26219AACFF0087578A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E1EE2F219AACFF0087578A /* MTSNetworkingKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16E1EE31219AACFF0087578A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E1EE3A219AACFF0087578A /* MTSNetworkingKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16E1EE2C219AACFF0087578A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E1EE15219AACFD0087578A /* MTSNetworkingKit */;
+			targetProxy = 16E1EE2B219AACFF0087578A /* PBXContainerItemProxy */;
+		};
+		16E1EE37219AACFF0087578A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16E1EE15219AACFD0087578A /* MTSNetworkingKit */;
+			targetProxy = 16E1EE36219AACFF0087578A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16E1EE1D219AACFD0087578A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16E1EE1E219AACFD0087578A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		16E1EE22219AACFF0087578A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16E1EE23219AACFF0087578A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16E1EE3C219AACFF0087578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16E1EE3D219AACFF0087578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16E1EE3F219AACFF0087578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4PAX5T8P2;
+				INFOPLIST_FILE = MTSNetworkingKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstertech.MTSNetworkingKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16E1EE40219AACFF0087578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4PAX5T8P2;
+				INFOPLIST_FILE = MTSNetworkingKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstertech.MTSNetworkingKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16E1EE42219AACFF0087578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4PAX5T8P2;
+				INFOPLIST_FILE = MTSNetworkingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstertech.MTSNetworkingKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTSNetworkingKit.app/MTSNetworkingKit";
+			};
+			name = Debug;
+		};
+		16E1EE43219AACFF0087578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4PAX5T8P2;
+				INFOPLIST_FILE = MTSNetworkingKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstertech.MTSNetworkingKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTSNetworkingKit.app/MTSNetworkingKit";
+			};
+			name = Release;
+		};
+		16E1EE45219AACFF0087578A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4PAX5T8P2;
+				INFOPLIST_FILE = MTSNetworkingKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstertech.MTSNetworkingKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MTSNetworkingKit;
+			};
+			name = Debug;
+		};
+		16E1EE46219AACFF0087578A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4PAX5T8P2;
+				INFOPLIST_FILE = MTSNetworkingKitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.monstertech.MTSNetworkingKitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MTSNetworkingKit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16E1EE11219AACFD0087578A /* Build configuration list for PBXProject "MTSNetworkingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1EE3C219AACFF0087578A /* Debug */,
+				16E1EE3D219AACFF0087578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16E1EE3E219AACFF0087578A /* Build configuration list for PBXNativeTarget "MTSNetworkingKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1EE3F219AACFF0087578A /* Debug */,
+				16E1EE40219AACFF0087578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16E1EE41219AACFF0087578A /* Build configuration list for PBXNativeTarget "MTSNetworkingKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1EE42219AACFF0087578A /* Debug */,
+				16E1EE43219AACFF0087578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16E1EE44219AACFF0087578A /* Build configuration list for PBXNativeTarget "MTSNetworkingKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16E1EE45219AACFF0087578A /* Debug */,
+				16E1EE46219AACFF0087578A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16E1EE0E219AACFD0087578A /* Project object */;
+}
